@@ -10,7 +10,7 @@ public class Main {
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setLayout(new BorderLayout());
             
-            // 🔥 CONFIGURAR PARA PANTALLA COMPLETA
+            // CONFIGURAR PARA PANTALLA COMPLETA
             frame.setExtendedState(JFrame.MAXIMIZED_BOTH); // Maximizada
             frame.setUndecorated(false); // Mantener bordes de ventana
             
@@ -51,7 +51,7 @@ public class Main {
         
         JLabel infoLabel = new JLabel(
             "<html><center>" +
-            "💡 <b>Consejos:</b> Haz clic en los bloques para minarlos • Usa la herramienta correcta para cada bloque • " +
+            " <b>Consejos:</b> Haz clic en los bloques para minarlos • Usa la herramienta correcta para cada bloque • " +
             "Bedrock no se puede romper" +
             "</center></html>"
         );
